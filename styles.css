@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.insta-img {
+    width: 336px;
+    position: fixed;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.container {
+display: flex;
+    flex-direction: row;
+}
+
+.content {
+width: 50%;
+font-family: 'Roboto Mono', monospace;
+}
+
+#mount {
+    width: 50%;
+    position: relative;
+    height: 40px;
+    left: 25%;
+}
+
+.title {
+    font-family: Proxima Nova;
+    text-shadow: -2px 0 black, 0 2px black, 3px 0 black, 0 -2px black;
+    color: white;
+    font-size: 65px;
+    background: white;
+    z-index: 1000;
+    position: fixed;
+}
+
+.hello {
+    font-weight: 400;
+    font-size: 30;
+    margin-top: 151px;
+    position: relative;
+    z-index: 1000;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.special {
+    color: #00bf00;
+    font-weight: bold;
+}
+
